@@ -1,0 +1,51 @@
+baseURL = 'http://example.com/'
+languageCode = 'zh-cn'
+title = 'Yet Another Hugo Theme -- YASDsytle'
+theme = "yasdstyle"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    pre = "about"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "posts"
+    pre = "posts"
+    url = "/posts/"
+    weight = 3
+[params]
+    ascii_art ='''put your ascii art title here.'''
+    discription = "put your website discription here."
+[[params.sidebars]]
+  title = "title1"
+  description = "a description"
+
+  [[params.sidebars.links]]
+    text = "links1"
+    url = "url"
+
+  [[params.sidebars.links]]
+    text = "links2"
+    url = "url"
+
+[[params.sidebars]]
+  title = "title2"
+  description = "a description"
+  [[params.sidebars.links]]
+    text = "links3"
+    url = "url"
+
+  [[params.sidebars.links]]
+    text = "links4"
+    url = "url"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

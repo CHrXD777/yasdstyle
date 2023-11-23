@@ -1,0 +1,12 @@
+<div class="sidebar">
+    {{ range .Site.Params.sidebars }}
+      <h3 class="title">{{ .title }}</h3>
+      <p class="description">{{ .description }}</p>
+      
+      {{ range .links }}
+        <a href="{{ .url }}">◉{{ .text }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  
+

@@ -1,0 +1,16 @@
+:root{       
+    --bg-col: black;
+    --highlight: #a85400;
+    --font-col: #6a6a6a;
+    --a-visited: rgb(107, 75, 75);
+    --a-hover: Lime;
+} 
+
+:root{       
+    --bg-col: #262335;
+    --highlight: #5c448a;
+    --font-col: #9f9f9f;
+    --a-visited: rgb(107, 75, 75);
+    --a-hover: #a85400;
+} 
+
